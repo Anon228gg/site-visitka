@@ -1,0 +1,738 @@
+* {
+    margin:0;
+    padding: 0;
+}
+html,body {
+  height: 100%;
+   font-family: "Sansation", sans-serif;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+     width: 100%;
+} 
+header{
+    height:120px;    
+    width: 1040px;
+    margin:0 auto;
+}
+main{
+    padding-bottom: 100px;
+    width: 1040px;
+    margin:0 auto;
+}
+body{
+    background-color: rgb(17, 19, 24);
+    color: rgb(255, 255, 255);
+}
+.hero-subtitle {
+    color: rgb(167, 139, 250);
+}
+
+.hero-title {
+    color: rgb(255, 255, 255);
+}
+
+.hero-description {
+    color: rgb(176, 181, 194);
+}
+.main_img-float {
+    width: 550px;
+    position: absolute;
+    top: 230px;
+    left: 200px;
+    float: left;
+}
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/panorama6.jpg) no-repeat center 70%;
+    background-size: cover; 
+}
+.services__img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+.services__item {
+    width: 240px;
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;
+}
+.services {
+    padding: 35px;
+    border: 5px
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.h1--invisible {
+    visibility: hidden;
+  }
+.contactss {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.aboutt {
+    text-align: center;
+}
+.aboutt p {
+  color: rgb(176, 181, 194);
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+#logo{
+    text-decoration:none;
+    text-transform: uppercase;
+    color: rgb(247, 204, 126);
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+}
+.pink {
+    color: rgb(167, 139, 250);
+    text-decoration: none;
+    position: relative;
+    top: 80px;
+    right: 35px;
+}
+.footer__block {
+    position: absolute;
+    right: 700px;
+}
+.footer__blockk {
+    position: absolute;
+    right: 1360px;
+    max-width: 500px;
+    bottom: 15px;
+}
+#footer__icons {
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+    margin-left: 10px;
+}
+h1, h2{
+     text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+.sansation-light {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.sansation-regular {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sansation-bold {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sansation-light-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 40px;
+}
+.sansation-light-italic a {
+    text-decoration: none;
+    color: white;
+}
+
+.sansation-regular-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sansation-bold-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+}
+.text-wrapper {
+    position: absolute;
+    right: 300px;
+    top: 230px;
+    max-width: 450px;
+    line-height: 1.6;
+}
+.uslugi {
+    position: absolute;
+    left: 770px;
+    top: 79px;
+}
+.about {
+    position: absolute;
+    left: 940px;
+    top: 79px;
+}
+.clients {
+    position: absolute;
+    left: 1090px;
+    top: 79px;
+}
+.contacts {
+    position: absolute;
+    left: 1310px;
+    top: 79px;
+}
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 20px 40px;
+    margin-top: 40px;
+}
+.footer__img {
+    width: 50px;
+
+}
+.firsttext {
+    line-height: 1.6;
+}
+.footerr {
+    position: absolute;
+    bottom: -400px;
+    right: 80px;
+}
+.footerrr {
+    position: absolute;
+    right: 60px;
+}
+.footerrrr {
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+}
+.clients-grid {
+    position: absolute;
+    top: 330px;
+}
+.clients-intro {
+    position: absolute;
+    top: 310px;
+}
+.compania {
+    color: rgb(231, 253, 220);
+}
+.yellow {
+    color: rgb(167, 139, 250);
+}
+a {
+    color: rgb(0, 174, 255)   ;
+}
+table {
+    border-collapse:collapse;
+}
+td, th {
+    border-collapse:collapse;
+}
+.price th:first-child {
+    width: 10%;
+}
+.price th:nth-child(2), .price th:last-child {
+width: 25%;
+}
+.price th, .price td {
+    text-align:  center;
+}
+.price td,
+.price th {
+    padding: 10px;
+}
+
+
+.price {
+    width: 100%;
+    border: 1px solid white;
+}
+
+/* Рамки всех ячеек */
+
+.price th,
+.price td {
+    border: 1px solid white;
+}
+
+/* Заголовок таблицы */
+
+.price thead {
+    background-color: #333;
+    color: white;
+}
+
+/* Чередование цветов строк */
+
+.price tbody tr:nth-child(odd) {
+    background-color: #444;
+}
+
+.price tbody tr:nth-child(even) {
+    background-color: #222;
+}
+.price-section {
+    margin-top: 30px;
+}
+
+.price caption {
+    padding: 15px;
+    text-align: center;
+}
+
+.price caption h2 {
+    margin: 0;
+}
+.price-section {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.price {
+    width: 100%;
+    margin: 0 auto;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    padding: 20px 90px;
+    margin-top: 40px;
+}
+
+.footer__block {
+    position: static;
+    margin: 0;
+}
+
+.footer img {
+    width: 50px;
+}
+#contact-form input [type="text"],#contact-form input [type="email"] {
+height: 20px;
+width: 250px;
+padding: 5px;
+margin-bottom: 10px;
+border: white solid 1px;
+background-color: #eddfff;
+}
+#contact-form input[type="submit"] {
+    height: 50px;
+    width: 250px;
+    padding: 5px;
+    border: white solid 1px;
+    background-color: #b58bd8;
+    color: #333;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+#contact-form input[type="submit"]:hover {
+    background-color: #eddfff;
+    cursor: pointer;
+}
+#contact-form {
+    background-color: #292966;
+    padding: 15px;
+    width: 300px;
+    color: white;
+}
+#contact-form select {
+    width: 250px;
+    padding: 5px;
+    background-color: #eddfff;
+}
+#contact-form label {
+    color: white;
+}
+#contact-form textarea {
+    width: 250px;
+    height: 180px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+    resize: vertical;
+}
+/* Форма обратной связи */
+#contact-form {
+    background-color: #292966;
+    padding: 15px;
+    width: 300px;
+    color: white;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* Поле выбора темы */
+#contact-form select {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    background-color: #eddfff;
+    box-sizing: border-box;
+}
+
+/* Подписи */
+#contact-form label {
+    color: white;
+    font-size: 16px;
+}
+
+/* Поля имени и E-mail */
+#contact-form input[type="text"],
+#contact-form input[type="email"] {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+    box-sizing: border-box;
+}
+
+/* Поле сообщения */
+#contact-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+/* Кнопка отправки */
+#contact-form input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: white solid 1px;
+    background-color: #b58bd8;
+    color: #333;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Кнопка при наведении */
+#contact-form input[type="submit"]:hover {
+    background-color: #eddfff;
+    cursor: pointer;
+}
+#contact-form input[type="date"],
+#contact-form input[type="tel"] {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+    box-sizing: border-box;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer .social {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Подвал сайта */
+footer,
+.footer,
+.footerr,
+.footerrr,
+.footerrrr {
+    position: static;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px max(20px, calc((100% - 1100px) / 2));
+    margin-top: 20px;
+}
+
+/* Блоки подвала */
+.footer__block,
+.footer__blockk {
+    position: static;
+    margin: 0;
+    max-width: none;
+}
+
+/* Иконки социальных сетей */
+.footer__img,
+footer img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+/* Расположение иконок */
+footer > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Убираем лишние отступы у текста */
+footer p {
+    margin: 0;
+}
+
+/* Подвал на узких экранах */
+@media (max-width: 760px) {
+    footer,
+    .footer,
+    .footerr,
+    .footerrr,
+    .footerrrr {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+/* Исправление подвала на странице «О нас» */
+.abaudno {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.abaudno #wrapper {
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+.abaudno footer.footerrr {
+    margin-top: auto;
+    position: static;
+    width: 100%;
+    flex-shrink: 0;
+}
+img[src="img/6.jpg"] {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.aboutt h1 .yellow {
+  color: rgb(255, 255, 255);
+}
+/* ===== KOKOUNIQUE CLIENTS ===== */
+
+.clients-container {
+    width: 95%;
+    max-width: 1500px;
+    margin: 55px auto;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.client-card {
+    min-width: 0;
+    min-height: 270px;
+    padding: 35px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: linear-gradient(
+        145deg,
+        #101b30,
+        #090e1b
+    );
+
+    border: 1px solid rgba(75, 130, 255, 0.35);
+    border-radius: 18px;
+
+    color: #ffffff;
+
+    transition: 0.35s ease;
+}
+
+.client-card:hover {
+    transform: translateY(-7px);
+    border-color: #438cff;
+
+    box-shadow:
+        0 0 15px rgba(55, 125, 255, 0.2),
+        0 0 35px rgba(55, 125, 255, 0.12);
+}
+
+.client-number {
+    color: #729fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 22px;
+}
+
+.client-card h2 {
+    color: #ffffff;
+    font-size: 23px;
+    margin: 0 0 12px;
+}
+
+.client-card p {
+    color: #bdc9dd;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 5px 0;
+}
+
+.client-card .client-description {
+    color: #8eafff;
+    font-weight: 600;
+}
+
+.client-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        #397cff,
+        transparent
+    );
+    margin: 22px 0 15px;
+}
+
+.client-card h3 {
+    color: #83aaff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0 0 8px;
+}
+
+.client-service {
+    color: #aab8ce;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* ИСПРАВЛЕНИЕ БЛОКА КЛИЕНТОВ */
+
+.clients-page {
+    position: relative;
+    width: 100%;
+}
+
+.clients-intro {
+    position: static !important;
+    margin: 40px 5% 25px;
+}
+
+.clients-grid {
+    position: static !important;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto 60px;
+    padding: 0;
+
+    background: none !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.clients-grid > .client-card {
+    position: relative !important;
+    width: 100%;
+    min-width: 0;
+    min-height: 250px;
+
+    padding: 28px;
+    margin: 0;
+
+    background: rgba(10, 20, 45, 0.65);
+    border: 1px solid rgba(65, 145, 255, 0.3);
+    border-radius: 18px;
+
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.clients-grid > .client-card:hover {
+    border-color: #398cff;
+    box-shadow: 0 0 20px rgba(40, 120, 255, 0.2);
+}
+
+.clients-grid .client-card h2 {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.clients-grid .client-divider {
+    margin: 15px 0;
+}
+
+@media (max-width: 900px) {
+    .clients-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .clients-grid {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+}
